@@ -1,4 +1,4 @@
-<!DOCTYPE html>  
+!DOCTYPE html>  
 <html>  
 <head>  
 <meta name="viewport" content="width=device-width, initial-scale=1">  
@@ -44,8 +44,7 @@ hr {
 .registerbtn:hover {  
   opacity: 1;  
 }  
-</style> 
- <title>Registration form</title> 
+</style>  
 </head>  
 <body>  
 <form>  
@@ -53,11 +52,11 @@ hr {
   <center>  <h1> Student Registeration Form</h1> </center>  
   <hr>  
   <label> First name </label>   
-<input type="text" name="firstname" placeholder= "Enter your First name" size="15" required />   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
 <label> Middle name: </label>   
-<input type="text" name="middlename" placeholder="Enter your Middle name" size="15" required />   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
 <label> Last name: </label>    
-<input type="text" name="lastname" placeholder="Enter your Last name" size="15"required />   
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
 <div>  
 <label>   
 Qualification:  
@@ -79,14 +78,8 @@ Gender :
 </label><br>  
 <input type="radio" value="Male" name="gender" checked > Male   
 <input type="radio" value="Female" name="gender"> Female   
-<input type="radio" value="Other" name="gender"> Other  <br>
-Timing: <br> 
-<input type="radio" value="Morning" name="Timing" checked > Morning   
-<input type="radio" value="Evening" name="Timing"> Evening <br>
-Batch: <br>
-<input type="radio" value="1" name="Batch" checked > 1   
-<input type="radio" value="2" name="Batch"> 2  
-<input type="radio" value="3" name="Batch"> 3  <br>
+<input type="radio" value="Other" name="gender"> Other  
+  
 </div>  
 <label>   
 Phone :  
@@ -103,8 +96,7 @@ Current Address :
   
     <label for="psw-repeat"><b>Re-type Password</b></label>  
     <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
-    <input type="reset" name="reset">
-    <input type="submit" name="submit">
+    <button type="submit" class="registerbtn">Register</button>    
 </form>  
 </body>  
 </html>
